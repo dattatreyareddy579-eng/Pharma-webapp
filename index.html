@@ -1,4 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-        <h1>Welcome to the Home Page</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PharmaCo - Pharmaceutical Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sidebar.css">
+</head> 
+<body>
+    <header class="main-header">
+        <div class="brand-title">PharmaCo</div>
+        <nav class="main-nav" aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a href="#" tabindex="0">Home</a></li>
+                <li><a href="#open-positions" tabindex="0">Open Positions</a></li>
+                <li><a href="#news" tabindex="0">News</a></li>
+                <li><a href="#team" tabindex="0">Team</a></li>
+                <li><a href="#about" tabindex="0">About</a></li>
+                <li><a href="#products" tabindex="0">Products</a></li>
+                <li><a href="#contact" tabindex="0">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-content">
+        <header class="header">
+            <h1>PharmaCo</h1>
+        </header>
+        <section class="profile-card" aria-labelledby="ceo-name">
+            <img class="profile-photo" src="ceo.jpg" alt="Muralidhara Reddy Sathi, Managing Director and CEO">
+            <div class="profile-info">
+                <h2 id="ceo-name">Muralidhara Reddy Sathi</h2>
+                <p>Managing Director & CEO</p>
+            </div>
+        </section>
+        <section class="highlight-box" aria-labelledby="solutions-title">
+            <h2 id="solutions-title">Innovative Pharmaceutical Solutions</h2>
+            <p>Your trusted partner in healthcare.</p>
+        </section>
+        <section id="about" aria-labelledby="about-title">
+            <h2 id="about-title">About Us</h2>
+            <p>PharmaCo is dedicated to improving health through innovative medicines and services.</p>
+        </section>
+        <section id="products" aria-labelledby="products-title">
+            <h2 id="products-title">Our Products</h2>
+            <ul id="product-list"></ul>
+        </section>
+        <section id="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contact Us</h2>
+            <form id="contact-form" autocomplete="off">
+                <label for="contact-name">Your Name</label>
+                <input id="contact-name" name="name" type="text" placeholder="Your Name" required />
+                <label for="contact-email">Your Email</label>
+                <input id="contact-email" name="email" type="email" placeholder="Your Email" required />
+                <label for="contact-message">Your Message</label>
+                <textarea id="contact-message" name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p> 2026 PharmaCo. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+    <script src="sidebar.js"></script>
+</body>
 </html>
