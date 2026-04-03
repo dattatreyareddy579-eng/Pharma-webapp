@@ -1,0 +1,21 @@
+{
+  "name": "pharma-webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "build": "echo Building project...",
+  "start": "node index.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dattatreyareddy579-eng/Pharma-webapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dattatreyareddy579-eng/Pharma-webapp/issues"
+  },
+  "homepage": "https://github.com/dattatreyareddy579-eng/Pharma-webapp#readme"
+}
